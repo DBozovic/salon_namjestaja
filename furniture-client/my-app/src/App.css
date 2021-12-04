@@ -1,0 +1,213 @@
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    
+    font-family:cursive;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up,
+  .aboutus {
+    display: flex;
+    height: 90vh;
+    align-items:stretch;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .services {
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url("C:\Users\PC\Desktop\furniture_store\furniture-client\my-app\src\back2.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 40px;
+    
+  }
+
+  .prod-title{
+    text-align: center;
+  
+  }
+
+  .aboutus{
+    background-image: url("C:\Users\PC\Desktop\furniture_store\furniture-client\my-app\src\backk3.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+  }
+  .aboutus-title{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+  }
+  .aboutus-text{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .aboutus-img{
+    background-image: url("C:\Users\PC\Desktop\furniture_store\furniture-client\my-app\src\back3.jpg");
+    display: flex;
+    background-position:center;
+    height: 381px;
+    width: 800px;
+    justify-content: center;
+    margin-left: 270px;
+    margin-top: 50px;
+  }
+  .about{
+    background-image: url("C:\Users\PC\Desktop\furniture_store\furniture-client\my-app\src\about.jpg");
+    display: flex;
+    background-position:center;
+    width: 780px;
+    height: 475px;
+    margin-left: 250px;
+    margin-top: 50px;
+   
+    justify-content: center;
+
+  }
+  .contact-title{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+  }
+  .contact-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .contact-title >div{
+   text-align: left;
+  }
+  .sign-up {
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+.slider{
+  position:relative;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+}
+.right-arrow {
+   position: absolute;
+   top:50%;
+   right:32px;
+   font-size:3rem;
+   color:black;
+   z-index:10;
+   cursor:pointer;
+   user-select:none;
+}
+
+.left-arrow {
+  position: absolute;
+  top:50%;
+  left:32px;
+  font-size:3rem;
+  color:black;
+  z-index:10;
+  cursor:pointer;
+  user-select:none;
+
+}
+
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform:scale(1.08);
+}
+ table,th,td {
+   border:1px solid black;
+ }
+ table{
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 30px;
+ }
+ th{
+   height: 50px;
+  
+ }
+
+ td{
+   text-align: center;
+ }
+
+ .form-group{
+  display: flex;
+  flex-direction: column;
+ 
+ 
+  position: center;
+  padding-top: 10px;
+
+ 
+ 
+ 
+}
+form{
+  
+  margin-left: 450px;
+  margin-top: 40px;
+  padding: 10px;
+  width: 350px;
+  background-color: mediumaquamarine;
+
+}
+.form-control{
+ box-sizing: border-box;
+ border: 2px solid black;
+ margin-top: 10px;
+
+}
+
+.pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  font-weight: bold;
+}
+
+.page-item{
+  margin: 0vh !important;
+  width: 4vh;
+  height: 4vh;
+  padding: 0vh !important;
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content:flex-start;
+    height: 250px;
+    
+    
+  }
+  .container > div {
+    background-color:rgb(255, 255, 255);
+    width: 750px;
+    margin: 5px;
+    text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+    padding: 0px;
+  }
+  
+  p{
+      font-size: 20px;
+     font-family:cursive;
+    color:black;
+    letter-spacing: 0.4px;
+    padding-left: 55px;
+    text-align:start;
+   
+  }

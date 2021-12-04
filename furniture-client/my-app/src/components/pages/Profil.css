@@ -1,0 +1,38 @@
+.profil{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    width: 40vh;
+    margin: 3vh;
+    margin-left: 10vh;
+    margin-bottom: 0vh;
+}
+
+.button1{
+    width: 50vh;
+    margin-left: 6vh;
+}
+
+.glavniDio{
+    width: 200vh;
+}
+
+.products {
+    background-position: center;
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 40px;
+    padding: 0vh;
+  }
+
+.wishButton{
+    padding: 0vh;
+    width: 10vh;
+}
+
+.td{
+    width: 11vh;
+}

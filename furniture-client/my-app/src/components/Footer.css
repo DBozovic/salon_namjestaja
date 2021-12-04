@@ -1,0 +1,28 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.footer-item{
+   
+    padding:15px;
+    margin-bottom: 16px;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+    
+}
+.footer-links{
+    align-items: center;
+    flex-direction: column;
+    
+    color: white;
+}
+.fin{
+    color:white;
+}

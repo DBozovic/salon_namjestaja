@@ -1,0 +1,10 @@
+.file{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.upload{
+    width: 35%;
+    font-size: 80%;
+}
